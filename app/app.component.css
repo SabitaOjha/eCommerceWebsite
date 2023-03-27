@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    background-color: pink;
+}
+#nav-left-heading{
+    margin-left: 10px;
+}
+.search,.nav-element{
+    margin-left: 150px;
+}
+.search input{
+    margin-top: 25px;
+    height: 35px;
+    width: 250px;
+    border: 1px solid black;
+    border-right: 0;
+}
+.search button{
+    height: 38px;
+    width: 90px;
+    font-size: large;
+    border: 1px solid black;
+}
+.nav-element li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+.nav-element li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+
+}
+.nav-element li a:hover{
+    color: black;
+}
